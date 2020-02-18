@@ -8,6 +8,7 @@ def bubble_sort(array)
 
     until b > array.index(array.last)
       if array[a] > array[b]
+        sorted = false
         array[a], array[b] = array[b], array[a]
       end
 
