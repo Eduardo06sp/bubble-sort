@@ -20,4 +20,4 @@ def bubble_sort(array)
   return array
 end
 
-puts bubble_sort([6,10,1,5,8])
+p bubble_sort([6,10,1,5,8])
