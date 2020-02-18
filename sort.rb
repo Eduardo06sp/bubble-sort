@@ -2,6 +2,8 @@ def bubble_sort(array)
   sorted = false
 
   while !(sorted)
+    sorted = true
+
   end
 
   return array
