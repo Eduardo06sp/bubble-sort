@@ -7,6 +7,10 @@ def bubble_sort(array)
     sorted = true
 
     until b > array.index(array.last)
+      if array[a] > array[b]
+        array[a], array[b] = array[b], array[a]
+      end
+
       a += 1
       b += 1
     end
