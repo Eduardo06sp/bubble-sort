@@ -29,7 +29,7 @@ def bubble_sort_by(array)
     sorted = true
 
     until b >= array.length
-      if array[a] > array[b]
+      if yield(array[a], array[b]) > 0
         sorted = false
         array[a], array[b] = array[b], array[a]
       end
