@@ -39,7 +39,7 @@ def bubble_sort_by(array)
     end
   end
 
-  return array
+  p array
 end
 
 bubble_sort_by(["hi", "hello", "hey"]) do |left, right|
